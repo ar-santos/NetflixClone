@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
-    <body>
-        <header class="header">
+<body>
+    <header class="header">
             <img src="img/netflix.svg" alt="Netflix" draggable="false">
             <a href="#">Entrar</a>
         </header>
+        
         <main class="main">
             <div class="main-child">
+                <form class="form-mobile">
+                    <input type="text" class="input-mobile" placeholder="Email">
+                    <button class="button-mobile">Vamos lá</button>
+                </form>
             <h1>Filmes, séries e muito mais. Sem limites.</h1>
             <span>Assista onde quiser. Cancele quando quiser.</span>
             <form class="form-cta">
-                <input type="text" class="input-mobile" placeholder="Email">
+                <input type="text" placeholder="Email">
                 <button>Vamos lá</button>
             </form>
-            <form class="form-mobile">
-                <input class="input-mobile" type="text" class="input-mobile" placeholder="Email">
-                <button class="button-mobile">Vamos lá</button>
-            </form>
-            <p>
-              Pronto para assistir? Informe seu email para criar ou reiniciar sua 
+        </form>
+        <p>
+            Pronto para assistir? Informe seu email para criar ou reiniciar sua 
               assinatura.
             </p>
-            </div>
+        </div>
             <div class="gradient"></div>
         </main>
 
@@ -37,37 +39,36 @@
             <div class="container">
                 <div class="grid">
                 <div>
-                <h1 class="h1-tv">Aproveite na TV.</h1>
-                <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,aparelhos de Blu-ray e outros dispositivos.</p>
+                    <h1 class="h1-tv" id="h1-mobile">Aproveite na TV.</h1>
+                <p class=p-mobile>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,aparelhos de Blu-ray e outros dispositivos.</p>
             </div>
             <div class="img-tv">
-            <img src="img/tv.png" alt="TV">
-            <video class="video-tv" autoplay playsinline muted loop>
-                    <source 
-                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"/></video>
-                </div>
+                <img src="img/tv.png" alt="TV">
+                <video class="video-tv" autoplay playsinline muted loop>
+                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"/></video>
                 </div>
             </div>
+            </div>
         </section>
-
+        
         <section class="download section">
             <div class="container">
                 <div class="grid">
-                <div>
+                    <div>
                 <h1>Baixe séries para assistir offline.</h1>
                 <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
             </div>
             <div class="img-tv">
             <img src="img/el.jpg" alt="EL">
                 </div>
-                </div>
+            </div>
             </div>
         </section>
-
+        
         <section class="device-pile section">
             <div class="container">
                 <div class="grid">
-                <div>
+                    <div>
                 <h1>Assista quando quiser.</h1>
                 <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
             </div>
@@ -77,15 +78,15 @@
                     <source 
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4"/></video>
                 </div>
-                </div>
             </div>
-        </section>
-            <footer class="footer">
-                <form class="form-cta">
-                    <input type="text" placeholder="Email">
-                    <button>Vamos lá</button>
-            </form>
-            <p>Copyright © 2021 Netflix Brasil. Todos os direitos reservados</p>
-        </footer>
+        </div>
+    </section>
+    <footer class="footer">
+        <form class="form-cta">
+            <input type="text" placeholder="Email">
+            <button>Vamos lá</button>
+        </form>
+        <p>Copyright © 2021 Netflix Brasil. Todos os direitos reservados</p>
+    </footer>
     </body>
 </html>

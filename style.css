@@ -75,13 +75,13 @@ img {
     margin-bottom: 10px;
 }
 
-.form-cta input {
+.form-cta .input-desktop {
     padding: 20px 10px;
     font-size: 18px;
     font-family: sans-serif;
 }
 
-.form-cta button {
+.form-cta .btn-mobile-footer {
     background: #e50914;
     outline: none;
     border: none;
@@ -188,14 +188,7 @@ img {
     color: #757575;
     font-size: 13px;
 }
-.input-mobile{
-    position: fixed;
-    top: 100000px;
-}
-.button-mobile{
-    position: fixed;
-    top: 100000px;
-}
+
 
 @media screen and (max-width: 500px){
     .header a {
@@ -229,13 +222,12 @@ img {
         position: absolute;
         left: 23px;
         top: 500px;
+        width: 150px;
+        height: 10px;
         font-size: 18px;
         font-family: sans-serif;
     }
-    .form-cta{
-        position: fixed;
-        top: 100000px;
-    }
+    
     .button-mobile{
         background: #e50914;
         width: 150px;
@@ -295,8 +287,36 @@ img {
         
     }
 
-    .img-tv{
-        position: fixed;
-        top: 100000px;
+    .img-tv-mobile{
+        width: 150px;
+        height: 10px;        
+    }
+
+    .email-mobile-footer{
+        margin-left: 5px;
+        padding: 20px 65px;
+        width: 75px;
+        height: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        text-align: left;
+    }
+
+   .btn-mobile-footer {
+        position: relative;
+        right: 115%;
+        background: #e50914;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 10px;
+        width: 190px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .footer > p{
+        position: relative;
+        right:25%;
     }
 }

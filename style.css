@@ -89,6 +89,16 @@ img {
     font-size: 30px;
     text-transform: uppercase;
     cursor: pointer;
+    padding: 13px 2px
+}
+.form-cta .button-desktop {
+    background: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .form-cta button::after {
@@ -203,43 +213,44 @@ img {
     }
     .main h1{
         font-size: 35px;
-        width: 100%;
-        transform: translate(-0px,-130px);
+        width: 50%;
+        transform: translate(-0px,-70px);
     }
     .main span {
         font-size: 22px;
-        width: 100%;
-        transform: translate(-0px,-130px);
+        width: 50%;
+        transform: translate(-0px,-50px);
     }
     .main p {
         font-size: 25px;
-        width: 100%;
-        transform: translate(-0px,-85px);
+        width: 50%;
+        transform: translate(-0px,-115px);
     }
    
     .input-mobile{
         padding: 20px 65px;
         position: absolute;
         left: 23px;
-        top: 500px;
-        width: 150px;
-        height: 10px;
+        top: 470px;
+        width: 350px;
+        height: 15px;
         font-size: 18px;
         font-family: sans-serif;
     }
     
     .button-mobile{
+        position: relative;
         background: #e50914;
-        width: 150px;
-        height: 50px;
         outline: none;
         border: none;
         color: white;
-        position: relative;
-        top:330px;
-        font-size: 20px;
+        width: 190px;
+        height: 55px;
         text-transform: uppercase;
         cursor: pointer;
+        border-radius: 3px;
+        top: 150px;
+        left: 280px;
 
     }
     .form-mobile button::after {
@@ -254,13 +265,12 @@ img {
         position:absolute;
         width: 100px;
         top: 100px;
-        
         left: 0px;
         transform: translate(-150px,-0px);
     }
     .device-pile .video-tv {
-        width: 10px;
-        transform: translate(-150px,-0px);
+        width: 250px;
+        transform: translate(-25px,-17px);
         position: absolute;
     }
     .section h1 {
@@ -274,6 +284,9 @@ img {
     .section{
         width: 100%;
         height: 520px;
+    }
+    .H1-P-mobile{
+        transform: translate(-220px,-20px);
     }
     
     .section p {
@@ -295,28 +308,54 @@ img {
     .email-mobile-footer{
         margin-left: 5px;
         padding: 20px 65px;
-        width: 75px;
+        width: 45%;
         height: 10px;
         font-size: 16px;
         font-family: sans-serif;
         text-align: left;
+        position: relative;
+        top: -30px;
+        left: 25px;
     }
-
+   
    .btn-mobile-footer {
         position: relative;
-        right: 115%;
+        right: 155%;
         background: #e50914;
         outline: none;
         border: none;
         color: white;
-        font-size: 10px;
         width: 190px;
+        height: 50px;
         text-transform: uppercase;
         cursor: pointer;
+        top: 45px;
+        border-radius: 3px;
+        
     }
 
     .footer > p{
         position: relative;
-        right:25%;
+        right:21%;
+        top: 25px;
     }
+    .img-tv-mobile{
+        width: 200%;
+        position: relative;
+        right:105%;
+        top: 80px;
+    }
+    .img-mobile{
+        width: 160%;
+        position: relative;
+        top: 200px;
+        left: 245px;
+    }
+    .video-tv {
+        position:absolute;
+        width: 300px;
+        top: 60px;
+        left: 200px;
+    }
+     
 }

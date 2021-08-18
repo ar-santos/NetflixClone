@@ -278,27 +278,38 @@ img {
         left: 100px;
         top: 15px;
         text-align: center;
-        transform: translate(-0px,-20px);
-        font-size: 1.125rem;
+        width: 200%;
+        font-size: 30px;
     }
     .section{
         width: 100%;
         height: 520px;
     }
+    .h1-mobile{
+        transform: translate(-110px,-20px);
+    }
+    .h1-tv{
+        transform: translate(-110px,-20px);
+    }
     .H1-P-mobile{
         transform: translate(-220px,-20px);
     }
+    .H1-mobile{
+        font-size: 60px;
+        
+        transform: translate(-90px,-60px);
+    }
     
     .section p {
-        font-size: 26px;
-        font-size: 1.125rem;
+        font-size: 20px;
+        width: 190%;
         text-align: center;
         position: relative;
         left: 100px;
         top: 15px;
-        transform: translate(-0px,-20px);
-        
+        transform: translate(-100px,-20px);
     }
+
 
     .img-tv-mobile{
         width: 150px;
@@ -331,7 +342,7 @@ img {
         cursor: pointer;
         top: 45px;
         border-radius: 3px;
-        
+
     }
 
     .footer > p{

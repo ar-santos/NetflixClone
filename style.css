@@ -201,9 +201,10 @@ img {
 
 
 @media screen and (max-width: 500px){
+
     .header a {
-        position: absolute;
-        left: 270px;
+        position: relative;
+        left: 105%;
     }
     .header {
         position: absolute;
@@ -232,7 +233,7 @@ img {
         position: absolute;
         left: 23px;
         top: 470px;
-        width: 350px;
+        width: 80%;
         height: 15px;
         font-size: 18px;
         font-family: sans-serif;
@@ -316,17 +317,14 @@ img {
         height: 10px;        
     }
 
-    .email-mobile-footer{
-        margin-left: 5px;
-        padding: 20px 65px;
-        width: 45%;
-        height: 10px;
-        font-size: 16px;
-        font-family: sans-serif;
-        text-align: left;
+    .email-mobile-footer{       
         position: relative;
+        padding: 10px;
         top: -30px;
-        left: 25px;
+        left: 25px;    
+        width: 70%;       
+        font-size: 18px;
+        font-family: sans-serif;
     }
    
    .btn-mobile-footer {

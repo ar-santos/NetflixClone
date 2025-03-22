@@ -1,6 +1,6 @@
 # NetflixClone 🎬
 
-Clone da interface da Netflix desenvolvido para testar minhas habilidades, baseado em um vídeo do YouTube.
+Clone da interface da Netflix desenvolvido para testar minhas habilidades.
 
 🔗 **Demo ao Vivo**: [NetflixClone](https://ar-santos.github.io/NetflixClone/)
 
